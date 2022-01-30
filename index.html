@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Formulario envio de Currículo</title>
+</head>
+
+<body>
+
+
+    <div class="container">
+        <h1>Currículo</h1>
+
+        <span> <strong>Atenção:</strong> Quando você se candidata a uma vaga, a empresa recebe um link para visualizar
+            seu currículo online. Assim, tenha cuidado ao realizar modificações para uma vaga específica, pois todas as
+            empresas terão acesso às alteracões realizadas.</span> <br><br>
+
+        <form method="" action="">
+
+
+            <div class="inputContainer">
+
+                <fieldset>
+                    <legend> <b> Dados Pessoais</b></legend>
+                    <label for="text" name="nome" class="labelInput">Nome Completo <span id="obrigatorio">(Obrigatório)</span></label>
+                    <input type="text" name="nome" class="inputDados" maxlength="100" autofocus required>
+                    <br>
+
+                    <label for="email" name="email">Email <span id="obrigatorio">(Obrigatório)</span></label>
+                    <input type="text" name="email" class="inputDados" required>
+                    <br>
+
+                    <label for="telefone" name="telefone">Celular <span id="obrigatorio">(Obrigatório)</span></label>
+                    <input type="number" name="telefone" class="inputDados" required>
+                    <br>
+
+                    <label for="endereco" name="endereco">Endereço</label>
+                    <input type="text" name="endereco" class="inputDados">
+                    <br>
+
+                    <label for="cep" name="cep">Cep</label>
+                    <input type="text" name="cep" class="inputDados" maxlength="8">
+                    <br>
+
+                    <label for="data-nascimento" name="data-nascimento"><b>Data de Nascimento: </b></label>
+                    <input type="date" name="data-nascimento" id="data_nascimento" max="2005-01-01">
+                    <br><br>
+
+                </fieldset>
+            </div>
+            <br>
+
+            <div class="inputContainer">
+
+                <fieldset>
+                    <legend> <b>Dados Escolares</b> </legend>
+                    <label for="curso01" name="curso01"><b> Curso 01 </b><span id="obrigatorio"> (Obrigatório)</label>
+                    <input type="text" class="inputDados" required>
+                    <br>
+
+                    <label for="horas" name="horas">Horas <span id="obrigatorio"> (Obrigatório)</label>
+                    <input type="number" class="inputDados" required>
+                    <br>
+
+                    <label for="mesAnoConclusao" name="mesAnoConclusao">Mês/Ano de Conclusão <span id="obrigatorio">  (Obrigatório)</label>
+                    <input type="month"  class="inputDados" min="2015-02" required>
+                    <br><br>
+
+                    <label for="curso02" name="curso02"><b> Curso 02 </b><span id="obrigatorio"> (Obrigatório)</label>
+                    <input type="text" class="inputDados" required>
+                    <br>
+
+                    <label for="horas" name="horas">Horas <span id="obrigatorio"> (Obrigatório)</label>
+                    <input type="number" class="inputDados" required>
+                    <br>
+                    <label for="mesAnoConclusao" name="mesAnoConclusao">Mês/Ano de Conclusão <span id="obrigatorio"> (Obrigatório)</label>
+                    <input type="month" class="inputDados" min="2015-02" required>
+                    <br><br>
+
+                    <label for="curso03" name="curso02"><b>Curso 03 </b><span id="obrigatorio"> (Obrigatório)</label>
+                    <input type="text" class="inputDados" required>
+                    <br>
+
+                    <label for="horas" name="horas">Horas <span id="obrigatorio"> (Obrigatório)</label>
+                    <input type="number" class="inputDados" required>
+                    <br>
+
+                    <label for="mesAnoConclusao" name="mesAnoConclusao">Mês/Ano de Conclusão <span id="obrigatorio">(Obrigatório)</label>
+                    <input type="month" class="inputDados" min="2015-02" required>
+                    <br>
+
+                </fieldset>
+            </div>
+            <br>
+
+            <div class="inputContainer">
+
+                <fieldset>
+                    <legend><b>Dados Profissionais</b> </legend>
+                    <label for="empresa1" name="empresa1"><b>Nome da Empresa 01 </b> <span id="obrigatorio"> (Obrigatório)</label>
+                    <input type="text" name="empresa1" class="inputDados" required>
+                    <br>
+
+                    <label for="atual" name="atual">Atual? <span id="obrigatorio"> (Obrigatório)</label>
+                    <select name="atual" id="atual" required>
+                        <option value="nao">Não</option>
+                        <option value="sim" selected>Sim</option>
+                    </select>
+                    <br>
+
+                    <label for="tempo" name="tempo">Tempo de Trabalho <span id="obrigatorio"> (Obrigatório)</label>
+                    <input type="number" name="tempo" class="inputDados" required>
+                    <br>
+
+                    <label for="cargo" name="cargo">Cargo</label>
+                    <input type="text" name="cargo" class="inputDados">
+                    <br><br>
+
+                    <label for="atividade" name="atividade">Descrição das Atividades:</label>
+                    <textarea name="descricao" id="descricao" cols="30" rows="10"></textarea>
+                    <br><br>
+
+                    <label for="empresa2" name="empresa2"> <b>Nome da Empresa 02 </b> <span id="obrigatorio"> (Obrigatório)</label>
+                    <input type="text" name="empresa2" class="inputDados" required>
+                    <br>
+
+                    <label for="atual" name="atual">Atual? <span id="obrigatorio"> (Obrigatório)</label>
+                    <select name="atual" id="atual" required>
+                        <option value="nao">Não</option>
+                        <option value="sim" selected>Sim</option>
+                    </select>
+                    <br>
+
+                    <label for="tempo" name="tempo">Tempo de Trabalho <span id="obrigatorio"> (Obrigatório)</label>
+                    <input type="number" name="tempo" class="inputDados"  required> 
+                    <br>
+
+                    <label for="cargo" name="cargo">Cargo</label>
+                    <input type="text" name="cargo" class="inputDados">
+                    <br><br>
+
+                    <label for="atividade" name="atividade">Descrição das Atividades:</label>
+                    <textarea name="descricao" id="descricao" cols="30" rows="10"></textarea>
+                    <br><br>
+
+                    <label for="empresa3" name="empresa3"><b> Nome da Empresa 03 </b><span id="obrigatorio"> (Obrigatório)</label>
+                    <input type="text" name="empresa3" class="inputDados" required>
+                    <br>
+
+                    <label for="atual" name="atual">Atual? <span id="obrigatorio">(Obrigatório)</label>
+                    <select name="atual" id="atual" required>
+                        <option value="nao">Não</option>
+                        <option value="sim" selected>Sim</option>
+                    </select>
+                    <br>
+
+                    <label for="tempo" name="tempo">Tempo de Trabalho <span id="obrigatorio">(Obrigatório)</label>
+                    <input type="number" name="tempo" class="inputDados" required>
+                    <br>
+
+                    <label for="cargo" name="cargo">Cargo</label>
+                    <input type="text" name="cargo" class="inputDados">
+                    <br><br>
+
+                    <label for="atividade" name="atividade">Descrição das Atividades:</label>
+                    <textarea name="descricao" id="descricao" cols="30" rows="10"></textarea>
+                    <br><br>
+
+                </fieldset>
+
+            </div>
+            <br>
+
+            <div class="inputContainer">
+                <input type="checkbox" id="checkbox" required>
+               <label for="autorizacao">Autorizo a coleta, recepção, registro, uso, processamento, armazenamento de meus dados pessoais acima para inclusão em banco de dados.</label>
+              
+            </div>     
+            
+            <br><br>
+            <a href="pagina/envio.html">
+           <button type="submit" name="enviar" id="submit">ENVIAR</button>
+             </a>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>

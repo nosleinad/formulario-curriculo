@@ -1,0 +1,134 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(to right, rgb(16, 18, 19), rgb(25, 65, 83));
+    color: #FFF;
+   
+    
+}
+
+.container {
+    position: absolute;
+    width: 50%;
+    left: 25%;
+    top: 10%;
+    background-color:#FFF;
+    padding: 50px;
+    border-radius: 8px;
+    color: #474747;
+} 
+.envio {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 52px;
+}
+
+strong {
+    color: #474747;
+}
+
+span {
+    color: #888;
+    font-size: 13px;
+}
+
+fieldset {
+    border: 3px solid #474747;
+    border-radius: 5px;
+}
+
+legend {
+    border: 1px solid #474747;
+    padding: 10px;
+    background-color: #474747;
+    border-radius: 8px;
+    color: #FFF;
+    letter-spacing: 2px;
+    
+}
+
+label {
+    font-size:  16px;
+    color: #474747;
+}
+
+select {
+    font-size: 16px;
+    padding: 8px;
+    margin: 5px;
+    font-weight: bold;
+    color: #474747;
+
+
+}
+
+.inputDados {
+    background: none;
+    border: none;
+    border-bottom: 1px solid #474747;
+    outline: none;
+    font-size: 18px;
+    width: 100%;
+    margin-top: 5px;
+    letter-spacing: 2px;
+    color: #333;
+
+}
+
+.inputDados:focus {
+    background: #888;
+    padding: 5px;
+    border-radius: 8px;
+    color: #FFF;
+
+}
+
+#descricao {
+    width: 100%;
+    margin-top: 10px;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    
+}
+
+#descricao:focus {
+    background: #888;
+    color: #FFF;
+    border-radius: 5px;
+}
+
+#data_nascimento {
+    border: none;
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 18px;
+    background-color: #474747;
+    color: #fff;
+}
+
+.inputContainer #checkbox {
+   width: 25px;
+   height: 25px;
+      
+}
+
+#submit {
+    background-image: linear-gradient(to right, rgb(18, 18, 19), rgb(66, 63, 73));
+    width: 100%;
+    border: none;
+    padding: 20px;
+    color: #fff;
+    font-size: 26px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+#submit:hover {
+    background-image: linear-gradient(to right, rgb(42, 44, 44), rgb(7, 7, 7));
+} 
